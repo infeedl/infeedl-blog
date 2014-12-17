@@ -93,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #index, #main {
   article {
-    h2 {
+    h1, h2 {
       margin: 0 0 .3em 0;
       font-size: 30px;
       line-height: 1.3em;
@@ -111,6 +111,11 @@ h1, h2, h3, h4, h5, h6 {
       text-transform: uppercase;
     }
 
+    .more {
+      color: #000;
+      text-decoration: underline;
+    }
+
     p {
       display: block;
       margin: 0 0 1em 0;
@@ -121,6 +126,10 @@ h1, h2, h3, h4, h5, h6 {
 
     p+p {
       text-indent: 0;
+    }
+
+    .social {
+      margin: 2em 0;
     }
   }
 }
