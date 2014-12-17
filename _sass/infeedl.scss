@@ -11,6 +11,10 @@ body{
   font-family: "gotham_proregular", Helvetica, Arial, sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "gotham_proregular", Helvetica, Arial, sans-serif;
+}
+
 .navigation-wrapper {
   font-family: "gotham_proregular", Helvetica, Arial, sans-serif;
   background: #6fc2d5;
@@ -69,5 +73,20 @@ body{
   p {
     width: 100%;
     max-width: 100%;
+    font-size: 16px;
+    line-height: 22px;
+    font-style: normal;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    color: black;
+    font-weight: normal;
+  }
+
+  iframe {
+    margin-bottom: 20px;
   }
 }
