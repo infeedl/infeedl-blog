@@ -6,7 +6,6 @@ url:              http://infeedl-blog.dev
 
 
 # Jekyll configuration
-destination: _site
 permalink:   /:categories/:title/
 markdown:    kramdown
 highlighter: pygments
