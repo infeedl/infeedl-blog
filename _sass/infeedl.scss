@@ -117,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 60px;
 }
 
-#index {
+#main {
   article {
     margin-top: 2em;
 
@@ -169,8 +169,11 @@ h1, h2, h3, h4, h5, h6 {
       color: black;
 
       img {
-        width: 100%;
-        height: auto;
+        max-width: 100%;
+
+        .responsive {
+          width: 100%;
+        }
       }
     }
 
