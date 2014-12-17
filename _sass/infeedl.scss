@@ -114,6 +114,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+#index article{
+  margin-bottom: 60px;
+}
+
 #main {
   margin-top: 60px;
 }
@@ -154,7 +158,7 @@ h1, h2, h3, h4, h5, h6 {
       display: block;
       font-size: 14px;
       color: #b8b8b8;
-      margin-bottom: 1.5em;
+      margin:-10px 0 16px;
       text-transform: uppercase;
     }
 
