@@ -16,6 +16,14 @@ h1, h2, h3, h4, h5, h6 {
   color: black;
 }
 
+.visible-small {
+  display: none !important;
+
+  @media only screen and (max-width: 37.5em) {
+    display: block !important;
+  }
+}
+
 .navigation-wrapper {
   font-family: "gotham_proregular", Helvetica, Arial, sans-serif;
   background: #6fc2d5;
@@ -174,4 +182,3 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
 }
-
