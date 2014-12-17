@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .site-name {
   margin-top: 0;
-  margin-bottom: 1em;а
+  margin-bottom: 1em;
 
   a {
     display: block;
@@ -113,11 +113,11 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-#main{
-  margin-top:60px;
+#main {
+  margin-top: 60px;
 }
 
-#index, #main {
+#index {
   article {
     margin-top: 2em;
 
@@ -133,15 +133,16 @@ h1, h2, h3, h4, h5, h6 {
         color: #000;
       }
     }
+
     h4 {
-      margin:15px 0 6px;
+      margin: 15px 0 6px;
     }
 
-    ul{
-      padding-left:0;
+    ul {
+      padding-left: 0;
       margin: 8px 0 16px;
 
-      li{
+      li {
         margin-bottom: 6px;
         list-style-type: circle;
       }
