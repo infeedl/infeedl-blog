@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/krasnoukhov/rack-jekyll.git
+  revision: d7ff7eccbf25a8d623638e84864530a5c85973cd
+  specs:
+    rack-jekyll (0.4.1)
+      jekyll (>= 1.3)
+      rack (~> 1.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -71,6 +79,7 @@ GEM
     pygments.rb (0.6.0)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
+    rack (1.5.2)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
@@ -94,3 +103,4 @@ DEPENDENCIES
   jekyll
   jekyll-sitemap
   octopress (~> 3.0.0.rc.12)
+  rack-jekyll!
