@@ -136,16 +136,17 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     h4 {
-      margin: 15px 0 6px;
+      margin: 20px 0 15px;
     }
 
     ul {
       padding-left: 0;
-      margin: 8px 0 16px;
+      margin: 12px 0 16px 30px;
 
       li {
-        margin-bottom: 6px;
+        margin-bottom: 10px;
         list-style-type: circle;
+        color: black;
       }
     }
 

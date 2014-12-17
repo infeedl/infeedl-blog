@@ -16,21 +16,23 @@ title: Почему пора отпевать баннеры
   <li>улучшение качества и увеличение количества брендированного контента.</li>
 </ul>
 
-<p>Основными нативными форматами считаются</p>
+<br/>
+
+<h3>Основные нативные форматы</h3>
 <p>
   <h4>Infeed: Facebook, Twitter</h4>
   <img src="/images/about-native/social.png" class="responsive" />
-
+  <p><br/></p>
   <h4>Платный поиск: Google, Yandex</h4>
   <img src="/images/about-native/search.png" class="responsive" />
-
+  <p><br/></p>
   <h4>Виджеты рекомендаций: Taboola, Outbrain</h4>
   <img src="/images/about-native/related.png" class="responsive" />
-
+  <p><br/></p>
   <h4>Промосписки: Amazon, Foursquare</h4>
   <img src="/images/about-native/amazon.png" class="responsive" />
 </p>
-
+<p><br/></p>
 <p>Каждый формат имеет разные характеристики, но все они отвечают одному правилу — гармоничная подача релевантного контента стоит прежде всего.</p>
 
 <p>Статистика нативных форматов говорит сама за себя:</p>
