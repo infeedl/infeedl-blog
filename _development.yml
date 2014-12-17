@@ -2,11 +2,11 @@
 
 title:            INFEEDL
 locale:           ru
-url:              http://blog.infeedl.com
+url:              http://infeedl-blog.dev
 
 
 # Jekyll configuration
-destination: _deploy
+destination: _site
 permalink:   /:categories/:title/
 markdown:    kramdown
 highlighter: pygments
