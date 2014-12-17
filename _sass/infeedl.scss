@@ -93,8 +93,14 @@ h1, h2, h3, h4, h5, h6 {
 
 #index, #main {
   article {
+    margin-top: 2em;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
     h1, h2 {
-      margin: 0 0 .3em 0;
+      margin: 0 0 .5em 0;
       font-size: 30px;
       line-height: 1.3em;
 
@@ -107,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
       display: block;
       font-size: 14px;
       color: #b8b8b8;
-      margin-bottom: 1em;
+      margin-bottom: 1.5em;
       text-transform: uppercase;
     }
 
@@ -118,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
 
     p {
       display: block;
-      margin: 0 0 1em 0;
+      margin: 0 0 1.5em 0;
       font-size: 16px;
       line-height: 24px;
       color: black;
