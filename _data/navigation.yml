@@ -1,10 +1,10 @@
 # Site navigation links
 
-- title: Рекламодателям
-  url: http://advertiser.infeedl.com/
-
 - title: Издателям
   url: http://publisher.infeedl.com/
+
+- title: Рекламодателям
+  url: http://advertiser.infeedl.com/
 
 - title: Сайт
   url: http://www.infeedl.com/
