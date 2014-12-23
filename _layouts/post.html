@@ -14,9 +14,6 @@
 {% include _navigation.html %}
 
 <div id="main" role="main">
-  <div class="article-author-side">
-    {% include _author-bio.html %}
-  </div>
   <article class="post">
     <div class="headline-wrap">
       <h1><a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">{{ page.title }}</a></h1>
@@ -40,6 +37,9 @@
 
     <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-numposts="5" data-colorscheme="light" data-width="100%"></div>
   </article>
+  <div class="article-author-side">
+    {% include _author-bio.html %}
+  </div>
 </div><!-- /#main -->
 
 <div class="footer-wrap">

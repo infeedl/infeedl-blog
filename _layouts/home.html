@@ -14,9 +14,6 @@
 {% include _navigation.html %}
 
 <div id="main" role="main">
-  <div class="article-author-side">
-    {% include _author-bio.html %}
-  </div>
   <div id="index">
     {% for post in site.posts limit:5 %}
     <article>
@@ -27,6 +24,9 @@
     </article>
     {% endfor %}
   </div><!-- /#index -->
+  <div class="article-author-side">
+    {% include _author-bio.html %}
+  </div>
 </div><!-- /#main -->
 
 <div class="footer-wrap">
