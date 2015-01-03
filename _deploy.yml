@@ -1,4 +1,4 @@
 method: git
 site_dir: _deploy
-git_url: git@github.com:infeedl/infeedl-blog-build
+git_url: git@github.com:infeedl/infeedl-blog
 git_branch: gh-pages
