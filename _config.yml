@@ -10,6 +10,7 @@ octodmin:
   transliterate: russian
 
 # Jekyll configuration
+source: source
 destination: _deploy
 permalink:   /:categories/:title/
 markdown:    kramdown
