@@ -1,4 +1,8 @@
-require "bundler"
-Bundler.require
+require "bundler/setup"
+require "octodmin/app"
 
-run Rack::Jekyll.new(auto: true, config: "_development.yml")
+use Rack::Auth::Basic, "Restricted Area" do |username, password|
+  [username, password] == ["admin", ENV["PASSWORD"]]
+end
+
+run Octodmin::App.new(__dir__)
