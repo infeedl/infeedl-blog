@@ -1,1 +1,1 @@
-web: bundle exec rackup admin.ru
+web: bundle exec rackup -p $PORT admin.ru
