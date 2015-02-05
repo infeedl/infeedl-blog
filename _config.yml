@@ -4,6 +4,10 @@ title:            INFEEDL
 locale:           ru
 url:              http://blog.infeedl.com
 
+# Octopress
+post_ext: md
+octodmin:
+  transliterate: russian
 
 # Jekyll configuration
 destination: _deploy
