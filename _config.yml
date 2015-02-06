@@ -8,6 +8,8 @@ url:              http://blog.infeedl.com
 post_ext: md
 octodmin:
   transliterate: russian
+  deploys:
+    - config_file: _deploy.yml
 
 # Jekyll configuration
 source: source
