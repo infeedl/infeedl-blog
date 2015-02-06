@@ -139,5 +139,5 @@ DEPENDENCIES
   jekyll
   jekyll-sitemap
   octodmin
-  octopress (~> 3.0.0.rc.12)
+  octopress (~> 3.0.0.rc)
   rack-jekyll!

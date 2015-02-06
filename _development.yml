@@ -4,8 +4,14 @@ title:            INFEEDL
 locale:           ru
 url:              http://infeedl-blog.dev
 
+# Octopress
+post_ext: md
+octodmin:
+  transliterate: russian
 
 # Jekyll configuration
+source: source
+destination: _site
 permalink:   /:categories/:title/
 markdown:    kramdown
 highlighter: pygments
