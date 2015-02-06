@@ -1,7 +1,7 @@
 require "bundler/setup"
 require "octodmin/app"
 
-use Rack::Auth::Basic, "Restricted Area" do |username, password|
+use Rack::Auth::Basic, "Octodmin" do |username, password|
   [username, password] == ["admin", ENV["PASSWORD"]]
 end
 
