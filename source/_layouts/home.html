@@ -16,12 +16,14 @@
 <div id="main" role="main">
   <div id="index">
     {% for post in site.posts limit:5 %}
+    {% if post.date < site.time %}
     <article>
       <h1><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h1>
       <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | localize: "%d %B %Y" }}</time>
       <p>{{ post.excerpt | strip_html }}</p>
       <a class="more" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">Читать далее</a>
     </article>
+    {% endif %}
     {% endfor %}
   </div><!-- /#index -->
   <div class="article-author-side">
