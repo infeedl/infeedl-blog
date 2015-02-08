@@ -16,7 +16,7 @@ sitemap: false
   {% if site.owner.email %}<email>{{ site.owner.email }}</email>{% endif %}
 </author>
 {% for post in site.posts limit:20 %}
-{% if post.date > site.time %}
+{% if post.date < site.time %}
   {% if post.author %}
     {% assign author = site.data.authors[post.author] %}
   {% else %}
