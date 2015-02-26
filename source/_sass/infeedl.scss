@@ -39,6 +39,7 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     height: 31px;
     position: relative;
+    border: none;
 
     img {
       max-height: 100%;
@@ -115,6 +116,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main {
+  h1 {
+    a {
+      color:black;
+      border-color: rgba(43,43,43,.2) !important;
+      &:hover{
+        color:$linkcolorhover;
+      }
+    }
+  }
   article {
     margin-top: 2em;
 
@@ -123,12 +133,9 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     h2 {
-      margin: 0 0 .5em 0;
+      margin: 40px 0 14px 0;
       line-height: 1.4em;
 
-      a, a:visited {
-        color: #000;
-      }
     }
 
     h4 {
@@ -153,8 +160,9 @@ h1, h2, h3, h4, h5, h6 {
 
     time {
       display: block;
-      font-size: 14px;
+      font-size: 13px;
       color: #b8b8b8;
+      letter-spacing: 0.1em;
       margin: -10px 0 16px;
       text-transform: uppercase;
     }
@@ -168,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {
       display: block;
       margin: 0 0 1.5em 0;
       font-size: 16px;
-      line-height: 24px;
+      line-height: 26px;
       color: black;
 
       img {

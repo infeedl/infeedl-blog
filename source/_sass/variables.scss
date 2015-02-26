@@ -28,11 +28,13 @@ $danger				: #C64537;
 $info				  : #308cbc;
 
 // Links
-$linkcolor 		    : #343434;
+$linkcolor 		    : #39A6C0;
 $link-color       : $linkcolor;
-$linkcolorhover 	: darken($linkcolor, 10);
+$linkcolorhover 	: #EC5924;
 $linkcolorvisited : lighten($linkcolorhover, 20);
 $linkcolorfocus 	: darken($linkcolorvisited, 10);
+$underline			: 1px solid rgba(57,166,192,.3);
+$underlinehover		: 1px solid rgba(224,80,32,.4);
 
 // Media Queries
 $micro            : "only screen and (min-width: 30em)";
