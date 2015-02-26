@@ -27,7 +27,7 @@ h6 {
 // Links
 // --------------------------------------------------
 a { 
-	border-bottom: 1px solid $underline;
+	border-bottom: $underline;
 	text-decoration: none;
 	border-bottom-style: inset;
 	color: $link-color; 
