@@ -2,9 +2,11 @@
 // --------------------------------------------------
 h1, h2, h3, h4, h5, h6 {
 	font-family: $heading-font;
+	margin-top:12px;
 }
 h1 {
 	@include font-size(30);
+	line-height: 1.3em;
 }
 h2 {
 	@include font-size(24);
@@ -24,21 +26,25 @@ h6 {
 
 // Links
 // --------------------------------------------------
-a { 
+a {
 	text-decoration: none;
-	color: $link-color; 
-	&:hover { 
-		color: $linkcolorhover; 
+	border-bottom: $underline;
+	border-bottom-style: inset;
+	color: $link-color;
+	&:hover {
+		color:$linkcolorhover;
+		border-bottom: $underlinehover;
 	}
-	&:focus { 
-		outline: thin dotted; 
+	&:focus {
+		outline: thin dotted;
 		color: $linkcolorfocus;
 	}
-	&:hover, 
-	&:active { 
-		outline: 0; 
+	&:hover,
+	&:active {
+		outline: 0;
 	}
 }
+
 
 // Figures
 // --------------------------------------------------
@@ -124,7 +130,7 @@ tt, code, kbd, samp, pre {
 	font-family: $code-font;
 }
 p,
-li { 
+li {
 	code {
 		@include font-rem(12);
 		line-height: 1.5;
