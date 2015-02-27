@@ -26,22 +26,22 @@ h6 {
 
 // Links
 // --------------------------------------------------
-a { 
-	border-bottom: $underline;
+a {
 	text-decoration: none;
+	border-bottom: $underline;
 	border-bottom-style: inset;
-	color: $link-color; 
-	&:hover { 
+	color: $link-color;
+	&:hover {
 		color:$linkcolorhover;
 		border-bottom: $underlinehover;
 	}
-	&:focus { 
-		outline: thin dotted; 
+	&:focus {
+		outline: thin dotted;
 		color: $linkcolorfocus;
 	}
-	&:hover, 
-	&:active { 
-		outline: 0; 
+	&:hover,
+	&:active {
+		outline: 0;
 	}
 }
 
@@ -130,7 +130,7 @@ tt, code, kbd, samp, pre {
 	font-family: $code-font;
 }
 p,
-li { 
+li {
 	code {
 		@include font-rem(12);
 		line-height: 1.5;
