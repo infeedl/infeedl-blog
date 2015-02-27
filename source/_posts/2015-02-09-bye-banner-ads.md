@@ -31,4 +31,4 @@ image: "/images/bye-banner-ads/feature.jpg"
 
 Альтернатива уже есть. Это нативные форматы [INFEEDL](http://infeedl.com). Расскажите свою историю с нашей помощью.
 
-По мотивам [Digiday](http://digiday.com/publishers/15-alarming-stats-about-banner-ads/)
+По мотивам [Digiday.](http://digiday.com/publishers/15-alarming-stats-about-banner-ads/)
