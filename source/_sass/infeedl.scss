@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navigation-wrapper {
   font-family: "gotham_proregular", Helvetica, Arial, sans-serif;
-  background: #6fc2d5;
+  background: #212121;
   color: #fff;
 }
 
@@ -63,9 +63,16 @@ h1, h2, h3, h4, h5, h6 {
   li {
     a {
       text-transform: none;
-      color: #fff;
+      color: #F5A623;
       font-size: .9em;
       font-weight: normal;
+      border-bottom:1px solid rgba(251,192,57,.5);
+      border-bottom-style: inset;
+
+      &:hover{
+        color:#2B8EE1;
+        border-bottom:1px solid rgba(36,120,217,.5)
+      }
     }
   }
 }
