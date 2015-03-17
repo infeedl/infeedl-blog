@@ -3,7 +3,7 @@ layout: "post"
 title: "На баннеры никто не обращает внимание. Доказано наукой"
 slug: "scientific-proof-that-no-one-pays-attention-to-banner-ads"
 date: "2015-03-16 20:27:53 +0000"
-image: "/octodmin/2015-03-16-scientific-proof-that-no-one-pays-attention-to-banner-ads/sharethrough-nielsen-banner-native-ads.jpg"
+image: "/octodmin/2015-03-16-scientific-proof-that-no-one-pays-attention-to-banner-ads/neuroscience-sharethrough-nielsen-banner-native-ads.jpg"
 ---
 
 Баннеры, которые размещаются на сайтах отдельно от основного контента и призывают вас к клику для получения дополнительной информации, уже давно воспринимаются как раздражители и считаются неэффективными. 
