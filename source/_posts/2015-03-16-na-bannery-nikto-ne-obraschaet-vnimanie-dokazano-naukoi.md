@@ -1,9 +1,9 @@
 ---
 layout: "post"
-title: "На баннеры никто не обращает внимание. Доказано наукой"
-slug: "scientific-proof-that-no-one-pays-attention-to-banner-ads"
+title: "На баннеры никто не обращает внимание. Доказано наукой. "
+slug: "na-bannery-nikto-ne-obraschaet-vnimanie-dokazano-naukoi"
 date: "2015-03-16 20:27:53 +0000"
-image: "/octodmin/2015-03-16-scientific-proof-that-no-one-pays-attention-to-banner-ads/sharethrough-nielsen-banner-native-ads.jpg"
+image: "https://docs.google.com/file/d/0B80TBMonBhMoUmJYaElqQTNrZ0k/edit"
 ---
 
 Баннеры, которые размещаются на сайтах отдельно от основного контента и призывают вас к клику для получения дополнительной информации, уже давно воспринимаются как раздражители и считаются неэффективными. 
@@ -14,7 +14,7 @@ image: "/octodmin/2015-03-16-scientific-proof-that-no-one-pays-attention-to-bann
 
 Ниже на картинках показано, где читатели фокусируют свое внимание при просмотре двух веб-страниц на планшете в течение 15 секунд: одна страница с нативной рекламой, вторая — с баннерным объявлением. 
 
-![Banner vs Native ads](/octodmin/2015-03-16-scientific-proof-that-no-one-pays-attention-to-banner-ads/sharethrough-nielsen-banner-native-ads.jpg)
+![Banner vs Native ads](https://docs.google.com/file/d/0B80TBMonBhModVlXTk1aNjZtX2c/edit")
 
 На изображении справа, с баннером в нижней части страницы, видно, что пользователи проигнорировали его. На изображении слева, с нативной рекламой в ленте издания, видно, что глаза пользователей просматривают ее вместе с содержанием сайта. 
 В целом, Sharethrough обнаружили, что пользователи потратили в два раза больше времени на нативные объявления по сравнению с баннерными.
