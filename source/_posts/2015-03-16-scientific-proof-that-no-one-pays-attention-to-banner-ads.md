@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "На баннеры никто не обращает внимание. Доказано наукой"
+title: "На баннеры никто не смотрит. Доказано наукой"
 slug: "scientific-proof-that-no-one-pays-attention-to-banner-ads"
 date: "2015-03-16 20:27:53 +0000"
 image: "/octodmin/2015-03-16-scientific-proof-that-no-one-pays-attention-to-banner-ads/neuroscience-sharethrough-nielsen-banner-native-ads.jpg"
