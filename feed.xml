@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://blog.infeedl.com/feed.xml" />
 <link rel="alternate" type="text/html" href="http://blog.infeedl.com" />
-<updated>2015-03-18T09:57:47+00:00</updated>
+<updated>2015-04-01T13:45:40+03:00</updated>
 <id>http://blog.infeedl.com/</id>
 <author>
   <name>INFEEDL</name>
@@ -149,7 +149,7 @@
 
 &lt;p&gt;Альтернатива уже есть. Это нативные форматы &lt;a href=&quot;http://infeedl.com&quot;&gt;INFEEDL&lt;/a&gt;. Расскажите свою историю с нашей помощью.&lt;/p&gt;
 
-&lt;p&gt;По мотивам &lt;a href=&quot;http://digiday.com/publishers/15-alarming-stats-about-banner-ads/&quot;&gt;Digiday&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;По мотивам &lt;a href=&quot;http://digiday.com/publishers/15-alarming-stats-about-banner-ads/&quot;&gt;Digiday.&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
 
@@ -162,8 +162,8 @@
     <title type="html"><![CDATA[Что такое нативная реклама]]></title>
     <link rel="alternate" type="text/html" href="http://blog.infeedl.com/about-native/" />
     <id>http://blog.infeedl.com/about-native</id>
-    <published>2014-12-17T00:00:00+00:00</published>
-    <updated>2014-12-17T00:00:00+00:00</updated>
+    <published>2014-12-17T00:00:00+02:00</published>
+    <updated>2014-12-17T00:00:00+02:00</updated>
     <author>
       <name>INFEEDL</name>
       <uri>http://blog.infeedl.com</uri>
@@ -219,8 +219,8 @@
     <title type="html"><![CDATA[Я устал от рекламы]]></title>
     <link rel="alternate" type="text/html" href="http://blog.infeedl.com/im-tired-of-ads/" />
     <id>http://blog.infeedl.com/im-tired-of-ads</id>
-    <published>2014-12-16T00:00:00+00:00</published>
-    <updated>2014-12-16T00:00:00+00:00</updated>
+    <published>2014-12-16T00:00:00+02:00</published>
+    <updated>2014-12-16T00:00:00+02:00</updated>
     <author>
       <name>INFEEDL</name>
       <uri>http://blog.infeedl.com</uri>
