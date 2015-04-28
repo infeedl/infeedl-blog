@@ -34,7 +34,7 @@ h6 {
 .site-name {
   margin-top: 0;
   margin-bottom: 1em;
-  width:100%;
+  width: 100%;
 
   a {
     display: block;
@@ -58,10 +58,10 @@ h6 {
   }
 
   p {
-    font-family:$base-font;
-    font-size:16px;
+    font-family: $base-font;
+    font-size: 16px;
     line-height: 22px;
-    margin-top:7px;
+    margin-top: 7px;
   }
 }
 
@@ -103,19 +103,19 @@ h6 {
     margin-right: 8.33333%;
   }
 
-  .sidebar-logo-wrap{
+  .sidebar-logo-wrap {
     @include clearfix;
-    width:100%;
+    width: 100%;
 
-    .sidebar-logo{
+    .sidebar-logo {
       display: block;
-      float:left;
+      float: left;
       width: 160px;
       height: 26px;
       background: url("/images/sidebar-logo.svg");
       background-size: 160px 26px;
-      border:none;
-      margin:0 0 20px 3px;
+      border: none;
+      margin: 0 0 20px 3px;
     }
   }
 
