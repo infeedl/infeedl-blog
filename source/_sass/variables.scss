@@ -28,9 +28,9 @@ $danger				: #C64537;
 $info				  : #308cbc;
 
 // Links
-$linkcolor 		    : #2B8EE1;
+$linkcolor 		    : #2b8ee1;
 $link-color       : $linkcolor;
-$linkcolorhover 	: #FBC039;
+$linkcolorhover 	: #fbc039;
 $linkcolorvisited : lighten($linkcolorhover, 20);
 $linkcolorfocus 	: darken($linkcolorvisited, 10);
 $underline			: 1px solid rgba(36, 120, 217, .3);
