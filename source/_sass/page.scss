@@ -5,12 +5,12 @@ body {
 }
 .navigation-wrapper {
 	@include container;
+	@include clearfix;
 	padding: 40px 0;
 	font-family: $heading-font;
-	height:150px;
-	box-sizing:border-box;
-	border-bottom:1px solid #EBEBEB;
-	@include clearfix;
+	height: 150px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #ebebeb;
 }
 .site-name {
 	@include grid(12,10);
@@ -325,9 +325,6 @@ $button-size: 1.5rem;
 		font-size: 80%;
 		font-style: italic;
 	}
-	/*a, a:hover {
-		border-bottom: 0 solid transparent;
-	}*/
 }
 .author-social {
   display: block;

@@ -1,7 +1,7 @@
 @font-face {
   font-family: "AvenirNext Demibold";
-  src: url('../../assets/fonts/AvenirNextCyr-Demi..eot?#iefix') format('embedded-opentype'), url('../../assets/fonts/AvenirNextCyr-Demi.otf') format('opentype'),
-	     url('../../assets/fonts/AvenirNextCyr-Demi.woff') format('woff'), url('../../assets/fonts/AvenirNextCyr-Demi.ttf') format('truetype'), url('../../assets/fonts/AvenirNextCyr-Demi.svg#AvenirNextCyr-Demi') format('svg');
+  src: url("../../assets/fonts/AvenirNextCyr-Demi..eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/AvenirNextCyr-Demi.otf") format("opentype"),
+	     url("../../assets/fonts/AvenirNextCyr-Demi.woff") format("woff"), url("../../assets/fonts/AvenirNextCyr-Demi.ttf") format("truetype"), url("../../assets/fonts/AvenirNextCyr-Demi.svg#AvenirNextCyr-Demi") format("svg");
   font-weight: 700;
   font-style: normal;
 }
@@ -9,7 +9,7 @@
 
 body{
   -webkit-font-smoothing: antialiased;
-  font-family: $base-font
+  font-family: $base-font;
 }
 
 h1,
@@ -34,7 +34,7 @@ h6 {
 .site-name {
   margin-top: 0;
   margin-bottom: 1em;
-  width: 100%;
+  width: 50%;
 
   a {
     display: block;
@@ -198,7 +198,7 @@ h6 {
       display: block;
       font-size: 16px;
       color: #b8b8b8;
-      margin: -8px 0 16px
+      margin: -8px 0 16px;
     }
 
 
