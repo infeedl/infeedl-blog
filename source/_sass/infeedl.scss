@@ -1,18 +1,24 @@
 @font-face {
-  font-family: "gotham_proregular";
-  src: url("../../assets/fonts/gothaproreg-webfont.eot");
-  src: url("../../assets/fonts/gothaproreg-webfont.eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/gothaproreg-webfont.woff") format("woff"), url("../../assets/fonts/gothaproreg-webfont.ttf") format("truetype");
-  font-weight: normal;
+  font-family: "AvenirNext Demibold";
+  src: url("../../assets/fonts/AvenirNextCyr-Demi..eot?#iefix") format("embedded-opentype"), url("../../assets/fonts/AvenirNextCyr-Demi.otf") format("opentype"),
+	     url("../../assets/fonts/AvenirNextCyr-Demi.woff") format("woff"), url("../../assets/fonts/AvenirNextCyr-Demi.ttf") format("truetype"), url("../../assets/fonts/AvenirNextCyr-Demi.svg#AvenirNextCyr-Demi") format("svg");
+  font-weight: 700;
   font-style: normal;
 }
 
+
 body{
   -webkit-font-smoothing: antialiased;
-  font-family: "gotham_proregular", Helvetica, Arial, sans-serif;
+  font-family: $base-font;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "gotham_proregular", Helvetica, Arial, sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font;
   color: #000;
   font-weight: normal;
 }
@@ -25,19 +31,15 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.navigation-wrapper {
-  font-family: "gotham_proregular", Helvetica, Arial, sans-serif;
-  background: #212121;
-  color: #fff;
-}
-
 .site-name {
   margin-top: 0;
   margin-bottom: 1em;
+  width: 50%;
 
   a {
     display: block;
-    height: 31px;
+    font-size: 30px;
+    color: #000;
     position: relative;
     border: none;
 
@@ -53,6 +55,13 @@ h1, h2, h3, h4, h5, h6 {
       right: 0;
       margin: auto;
     }
+  }
+
+  p {
+    font-family: $base-font;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 7px;
   }
 }
 
@@ -87,18 +96,35 @@ h1, h2, h3, h4, h5, h6 {
 
 .article-author-side {
   display: block;
-  min-width: 240px;
+  min-width: 260px;
+  padding-top:12px;
 
   @media only screen and (max-width: 37.5em) {
     margin-left: 8.33333%;
     margin-right: 8.33333%;
   }
 
+  .sidebar-logo-wrap {
+    @include clearfix;
+    width: 100%;
+
+    .sidebar-logo {
+      display: block;
+      float: left;
+      width: 160px;
+      height: 26px;
+      background: url("/images/sidebar-logo.svg");
+      background-size: 160px 26px;
+      border: none;
+      margin: 0 0 20px 3px;
+    }
+  }
+
   p {
     width: 100%;
     max-width: 100%;
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 24px;
     font-style: normal;
   }
 
@@ -106,8 +132,8 @@ h1, h2, h3, h4, h5, h6 {
     h3 {
       margin: 40px 0 18px 0;
       max-width: 100%;
-      font-size: 20px;
-      line-height: 20px;
+      font-size: 22px;
+      line-height: 22px;
       color: #000;
       font-weight: normal;
     }
@@ -171,19 +197,17 @@ h1, h2, h3, h4, h5, h6 {
 
     time {
       display: block;
-      font-size: 13px;
+      font-size: 16px;
       color: #b8b8b8;
-      letter-spacing: 0.1em;
-      margin: -10px 0 16px;
-      text-transform: uppercase;
+      margin: -8px 0 16px;
     }
 
 
     p {
       display: block;
       margin: 0 0 1.5em 0;
-      font-size: 16px;
-      line-height: 26px;
+      font-size: 18px;
+      line-height: 28px;
       color: #000;
 
       img {

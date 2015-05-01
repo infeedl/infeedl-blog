@@ -2,8 +2,8 @@
 $doc-font-size: 16;
 $doc-line-height: 26;
 $paragraph-indent: true !default;
-$base-font: 'PT Serif', serif;
-$heading-font: 'PT Sans Narrow', sans-serif;
+$base-font: Georgia, serif;
+$heading-font: "AvenirNext Demibold", Helvetica, sans-serif;
 $code-font: Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
 $alt-font: $base-font;
 
@@ -28,13 +28,13 @@ $danger				: #C64537;
 $info				  : #308cbc;
 
 // Links
-$linkcolor 		    : #fbc039;
+$linkcolor 		    : #2b8ee1;
 $link-color       : $linkcolor;
-$linkcolorhover 	: #2b8ee1;
+$linkcolorhover 	: #fbc039;
 $linkcolorvisited : lighten($linkcolorhover, 20);
 $linkcolorfocus 	: darken($linkcolorvisited, 10);
-$underline			: 1px solid rgba(251, 192, 57, .3);
-$underlinehover		: 1px solid rgba(36, 120, 217, .4);
+$underline			: 1px solid rgba(36, 120, 217, .3);
+$underlinehover		: 1px solid rgba(251, 192, 57, .4);
 
 // Media Queries
 $micro            : "only screen and (min-width: 30em)";
