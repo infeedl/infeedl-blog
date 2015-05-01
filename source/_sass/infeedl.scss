@@ -96,7 +96,8 @@ h6 {
 
 .article-author-side {
   display: block;
-  min-width: 240px;
+  min-width: 260px;
+  padding-top:12px;
 
   @media only screen and (max-width: 37.5em) {
     margin-left: 8.33333%;
